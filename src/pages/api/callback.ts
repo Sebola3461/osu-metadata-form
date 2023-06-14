@@ -1,7 +1,5 @@
 import { NextApiRequest, NextApiResponse } from "next";
 import { OsuApi } from "../../helpers/OsuApi";
-import { config } from "dotenv";
-config();
 
 export default async function handler(
 	req: NextApiRequest,
